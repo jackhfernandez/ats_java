@@ -11,13 +11,17 @@ import java.util.Scanner;
  * @author jackh
  */
 public class Ej08 {
+  
   public static void main(String[] args) {
+    
     Scanner scanner = new Scanner(System.in);
     
     System.out.print("Ingrese el valor de a: ");
     int a = scanner.nextInt();
+    
     System.out.print("Ingrese el valor de b: ");
     int b = scanner.nextInt();
+    
     System.out.print("Ingrese el valor de c: ");
     int c = scanner.nextInt();
     
@@ -32,15 +36,17 @@ public class Ej08 {
         double x1 = (-b + Math.sqrt(discriminante)) / (2*a);
         double x2= (-b - Math.sqrt(discriminante)) / (2*a);
         System.out.println("Las raices reales son: x1 = " + x1+" y x2 = " + x2);
+      
       } else if (discriminante == 0) {
         int x = -b / (2*a);
         System.out.println("Las raices son reales e iguales. x = " + x);
+      
       } else {
         // en caso de raices complejas
         double parteReal = -b / (2*a);
         double parteImaginaria = Math.sqrt( -discriminante / (2*a));
         System.out.println("Las raices complejas son: \nx1 = " + parteReal +
-            parteImaginaria + "i" + "\nx2 = " + parteReal + parteImaginaria+ "i");
+          parteImaginaria + "i" + "\nx2 = " + parteReal + parteImaginaria+ "i");
       }
     }
   }
