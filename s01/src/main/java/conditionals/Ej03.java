@@ -7,7 +7,7 @@ package conditionals;
  *
  * @author jackh
  */
-public class Main {
+public class Ej03 {
   public static void main(String[] args) {
     
   }
