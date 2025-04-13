@@ -1,4 +1,5 @@
 conditionals\If.class
+While.class
 company\EntradaSalida.class
 company\Ej07.class
 company\Ej06.class
@@ -10,4 +11,5 @@ conditionals\Ej01.class
 company\Ejercicio01.class
 company\Hola.class
 conditionals\Main.class
+DoWhile.class
 company\EntradaJOptionPane.class
