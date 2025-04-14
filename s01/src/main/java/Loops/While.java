@@ -13,15 +13,18 @@ import java.util.Scanner;
 public class While {
 
   public static void main(String[] args) {
+
+    int a=1;
+    
     Scanner scanner = new Scanner(System.in);
-    System.out.print("Ingrese un numero: ");
-    int a=0;
-    a = scanner.nextInt();
-          
-    while (a > 0) {
+    do {
       System.out.print("Ingrese un numero: ");
       a = scanner.nextInt();
-      System.out.print(a + "^2 = "+ a*a);
-    }
+      if (a<1) {
+        System.out.println("");
+      } else {
+        System.out.println(a + "^2 = "+ a*a);
+      }
+    } while (a > 0);
   }
 }
