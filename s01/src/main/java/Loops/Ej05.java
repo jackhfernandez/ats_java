@@ -16,7 +16,7 @@ public class Ej05 {
     int numero, contador=0, suma=0; float media=0;
     
     numero = Integer.parseInt(JOptionPane.showInputDialog("Ingrese un numero: "));
-    
+   
     do {
       contador++;
       suma +=numero;
@@ -25,10 +25,10 @@ public class Ej05 {
     
     if (contador == 0) {
       System.out.println("Error. Division por cero");
+      
     } else {
       media = (float) suma/contador; 
       System.out.println("La media es " + media);
     }    
   }
-  
 }
