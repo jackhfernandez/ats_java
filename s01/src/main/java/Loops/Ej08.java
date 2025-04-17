@@ -20,6 +20,6 @@ public class Ej08 {
       suma += numero;
     }
     
-    System.out.println("La suma es " + suma);
+    JOptionPane.showMessageDialog(null, "La suma es " + suma);
   }
 }
