@@ -18,7 +18,6 @@ public class Ejm01 {
     
     int nElementos = Integer.parseInt(JOptionPane.showInputDialog("Ingrese el numero de elementos: "));
     
-    
     char[] texto = new char[nElementos];
     
     System.out.println("Ingrese los caracteres: ");
