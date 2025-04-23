@@ -23,22 +23,25 @@ public class Ej005 {
     // Pedir elementos
     System.out.println("Ingrese elementos para los arrays: ");
     for (int i=0; i<10; i++) {
-      System.out.print("Ingrese elemento " + (i+1) + "del array A: ");
+      System.out.print("Ingrese el elemento " + (i+1) + " del array A: ");
       a[i] = scanner.nextInt();
-      System.out.print("Ingrese elemento " + (i+1) + "del array B: ");
+      System.out.print("Ingrese el elemento " + (i+1) + " del array B: ");
       b[i] = scanner.nextInt();
     }
     
     // Creando un tercer array con los elementos del array a y b
+    int j=0;
     for (int i=0; i<10; i++) {
-      c[i] = a[i];
-      c[i+1] = b[i];
+      c[j] = a[i];
+      j++;
+      c[j] = b[i];
+      j++;
     }
     
     // Mostrando tercer array
+    System.out.println("Mostrando array c con elementos de a y b");
     for (int i=0; i<20; i++) {
       System.out.print(c[i] + " ");
     }
-  }
-  
+  } 
 }

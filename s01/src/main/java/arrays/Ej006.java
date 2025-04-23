@@ -5,6 +5,8 @@
  */
 package arrays;
 
+import java.util.Scanner;
+
 /**
  *
  * @author jackh
@@ -13,6 +15,8 @@ public class Ej006 {
   
    public static void main(String[] args) {
     
-     Scanner scanner = Scanner(System.in);
+     Scanner scanner = new Scanner(System.in);
+     
+     int[] a = new int[12]; int[] b = new int[12];
   }
 }
