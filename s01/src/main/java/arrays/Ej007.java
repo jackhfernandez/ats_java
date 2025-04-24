@@ -5,7 +5,6 @@
 package arrays;
 
 import java.util.Random;
-import java.util.Scanner;
 
 /**
  *
@@ -15,7 +14,6 @@ public class Ej007 {
   
   public static void main(String[] args) {
     
-    Scanner scanner = new Scanner(System.in);
     int[] array1 = new int[10];
     int[] array2 = new int[10];
     int[] array3 = new int[10];
