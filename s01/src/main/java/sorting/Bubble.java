@@ -23,10 +23,31 @@ public class Bubble {
     arreglo = new int[nElementos];
     
     for (int i=0; i<nElementos; i++) {
+      System.out.print("Ingrese elemento " + (i+1) + ": ");
       arreglo[i] = scanner.nextInt();
     }
     
-    // Metodo burbuja
+    System.out.println("Mostrando arreglo original: ");
+    for (int arr : arreglo) {
+      System.out.print(arr + " ");
+    }
     
+    // Metodo burbuja
+    for (int i=0; i<(nElementos-1); i++) {
+      for (int j=0; j<(nElementos-1); j++) {
+        if (arreglo[j] > arreglo[j+1]) {
+          aux          = arreglo[j];
+          arreglo[j]   = arreglo[j+1];
+          arreglo[j+1] = aux;
+        }
+      }
+    }
+    
+    System.out.println("\nMostrando arreglo ordenado: ");
+    for (int i=0; i<nElementos; i++) {
+      System.out.print(arreglo[i] + " ");
+    }
+    
+    scanner.close();
   }
 }
