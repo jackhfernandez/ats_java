@@ -1,8 +1,10 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+/**
+ * Ordenamiento con el metodo burbuja
  */
 package sorting;
+
+import java.util.Scanner;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -10,4 +12,21 @@ package sorting;
  */
 public class Bubble {
   
+  public static void main(String[] args) {
+   
+    Scanner scanner = new Scanner(System.in);
+    
+    int arreglo[], nElementos, aux;
+    
+    nElementos = Integer.parseInt(JOptionPane.showInputDialog("Ingrese el tamano del arreglo: "));
+    
+    arreglo = new int[nElementos];
+    
+    for (int i=0; i<nElementos; i++) {
+      arreglo[i] = scanner.nextInt();
+    }
+    
+    // Metodo burbuja
+    
+  }
 }
