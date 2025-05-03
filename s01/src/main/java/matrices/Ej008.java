@@ -1,6 +1,6 @@
 /**
- * Crear y cargar una matriz de 10 elementos. Pedir al usuario dos posiciones
- * de la matriz e intercambiar de posicion
+ * Crear una matriz “marco” de tamaño 5x5: todos sus elementos deben ser O
+ *  salvo los de los bordes que deben ser 1. Mostrarla.
  */
 package matrices;
 
